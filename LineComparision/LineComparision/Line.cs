@@ -13,5 +13,9 @@ namespace LineComparision
             double result = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             return result;
         }
+	public Boolean lengthEquaity(double len1,double len2)
+        {
+            return len1 == len2;
+        }
     }
 }
